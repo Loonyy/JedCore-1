@@ -11,7 +11,7 @@ import java.util.List;
 public class BoardCommand extends PKCommand {
 	
 	public BoardCommand() {
-		super("board", "/bending board", "Toggles the visibility of the BendingBoard.", new String[] { "board", "bendingboard", "bb" });
+		super("bb", "/bending board", "Toggles the visibility of the BendingBoard.", new String[] { "bendingboard", "bb" });
 	}
 
 	@Override
